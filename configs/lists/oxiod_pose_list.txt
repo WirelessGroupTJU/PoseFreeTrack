@@ -1,0 +1,4 @@
+handheld
+pocket
+handbag
+trolley

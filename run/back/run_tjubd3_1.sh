@@ -1,0 +1,3 @@
+python train.py -n ridi -t 3 -o transposes/multiple_ridi/pos_mixin_seq100       -lt pos     -lf mee -lm mixin --window_size 100    # tjubd3
+python train.py -n ridi -t 3 -o transposes/multiple_ridi/pos_mixin_seq300       -lt pos     -lf mee -lm mixin --window_size 300    # tjubd3
+python train.py -n ridi -t 3 -o transposes/multiple_ridi/pos_mixin_seq400       -lt pos     -lf mee -lm mixin --window_size 400    # tjubd3

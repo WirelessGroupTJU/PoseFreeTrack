@@ -1,0 +1,28 @@
+# file
+*.pyc
+*.pth
+*.log
+*.h5
+test.py
+run/run0.sh
+run/run1.sh
+# folder
+tmp
+benchmarks
+__pycache__
+output
+data/cache
+data/OxIOD
+data/ridi
+data/RoNIN
+data/tjuimu
+output_back
+figures
+test.ipynb
+.vscode
+.ipynb_checkpoints
+#analysis
+backup
+tmp.sh
+latex
+results

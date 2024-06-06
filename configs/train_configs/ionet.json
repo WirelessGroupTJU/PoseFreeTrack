@@ -1,0 +1,14 @@
+{
+    "model": "ionet",
+    "hidden_size": 96,
+
+    "label_type": "polar",
+    "label_mode": "sparse",
+    "loss_func": "mse",
+
+    "acc_magn": false,
+    "yaw_diff": false,
+    "domain_std": false,
+    "train_stage": [false, true],
+    "monitor": "loss"
+}

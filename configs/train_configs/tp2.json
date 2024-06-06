@@ -1,0 +1,51 @@
+{
+    "model": "transposemt",
+    "enc_type": "lstm",
+    "gen_type": "lstm",
+    "dec_type": "lstm",
+    "dis_type": "lstm",
+    "pred_type": "lstm",
+    "hidden_size": 96,
+    "proj_size": 8,
+
+    "enc_flat": false,
+    "dec_flat": true,
+    "gen_flat": false,
+    "dis_flat": true,
+    "pred_flat": false,
+
+    "enc_bidirect": false,
+    "dec_bidirect": false,
+    "gen_bidirect": false,
+    "dis_bidirect": false,
+    "pred_bidirect": false,
+
+    "dis_linear": false,
+    "pred_linear": false,
+
+    "activation": null,
+    "cond_enc": false,
+    "embedding_label": false,
+    "dropout": 0,
+    "num_layers": [1,1,1],
+
+    "label_type": "polar",
+    "label_mode": "sparse",
+    "loss_func": "mse",
+
+    "a_ae": 1,
+    "a_grl": 1,
+    "a_gan": 1,
+    "a_cycx": 1,
+    "a_cycz": 1,
+    "a_cycsz": 1,
+    "t_cycx": "l1",
+    "t_cycz": "fm",
+    "t_cycsz": "gram",
+    "a_pred": 10,
+    "a_pred_st": 1,
+    "t_s_random": false,
+    "acc_magn": true,
+    "yaw_diff": true,
+    "domain_std": true
+}

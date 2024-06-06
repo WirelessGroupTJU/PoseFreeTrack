@@ -1,0 +1,7 @@
+{
+    "enc_type": "gru",
+    "gen_type": "gru",
+    "dec_type": "gru",
+    "dis_type": "gru",
+    "pred_type": "gru"
+}
